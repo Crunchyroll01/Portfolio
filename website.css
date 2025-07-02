@@ -3,7 +3,7 @@
     margin:0;
 }
 header{
-    background-color: rgb(14, 13, 13);
+    background-color: rgb(38, 41, 46);
     width: 100%;
     justify-content: left;
 }
@@ -29,7 +29,7 @@ header > nav > ul {
     font-size: 20px;
 }
 body{
-    background-color: rgb(107, 109, 197);
+    background-color: rgb(60,47,47);
 }
 body{
     h1{
@@ -45,8 +45,8 @@ body{
         margin-top: 10px;
     }
 }
-body, h1, h2, p{
-    color: white;
+body, h1, h2, p,body>footer>p{
+    color: rgb(150, 93, 91);
     justify-content: center;
 }
 footer>nav>ul{
@@ -59,7 +59,7 @@ footer>nav>ul{
 footer{
     position: fixed;
     width: 100%;
-    background-color: rgb(14, 13, 13);
+    background-color:  rgb(38, 41, 46);
     justify-content: left;
     left: 0%;
     bottom: 0%;
@@ -79,6 +79,7 @@ footer>p{
     color: white;
     text-decoration: none;
     font-size: 20px;
+    font-family: monospace;
 }
 #linkedin img{
     height: 30px;
