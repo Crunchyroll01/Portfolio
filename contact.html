@@ -6,7 +6,7 @@ Cody Fancil
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Goals</title>
+    <title>Contact Me</title>
     <link rel="stylesheet" href="website.css">
     <link rel="icon" href="images/Favicon.png">
 </head>
@@ -26,21 +26,27 @@ Cody Fancil
         </nav>
     </header>
 
-<div class="goals-container">
-    <h1>My Goals</h1>
+    <h1 id="contactheading">Contact Me With This Form</h1>
+    <p id="contactparagraph">Sometimes I am unable to answer immediately. <br> Feel free to leave your contact information and I will reach you.<br> 
+    Include your name, email, phone, intent, and any additional information. <br>Thank you!</p>
+<form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
 
-    <h2>2027</h2>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
 
-    <h2>2026</h2>
+    <label for="phone">Phone Number:</label>
+    <input id="phone" name="phone" required></input>
 
-    <h2>2025</h2>
+    <label for="purpose">Contact Purpose:</label>
+    <input id="purpose" name="purpose" required></input>
 
-    <h2>2024</h2>
+    <label for="Information">Additional Information:</label>
+    <textarea id="Information" name="Information"></textarea>
 
-    <h2>2023-2020</h2>
-    <p>My goal for 2023 was to complete my dual degree in Psychology at Indiana Tech.</p>
-</div>
-
+    <button type="submit" id="formbutton">Send Message</button>
+</form>
     <footer>
         <p>Contact me at:</p>
         <nav>
