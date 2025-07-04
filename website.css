@@ -154,3 +154,10 @@ form{
     border-radius: 5px;
     margin-top: 20px;
 }
+#emaillink svg {
+    height: 35px;
+    width: 40px;
+    display:inline-block;
+    vertical-align: middle;
+    fill: rgb(40 103 178);
+}
