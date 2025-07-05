@@ -32,16 +32,16 @@ body{
     background-color: rgb(60,47,47);
     h1{
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
     margin-top: 5px;
     }
 
     h2{
         text-align: center;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         margin-top: 10px;
+        margin-bottom: 20px;
     }
 }
 .tessa-container {
@@ -54,7 +54,7 @@ body{
 body, h1, h2, p,body>footer>p{
     color: rgb(212, 185, 185);
     justify-content: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 footer>nav>ul{
     display: flex;
@@ -80,7 +80,7 @@ footer>p{
     font-size: 20px;
     font-weight: bold;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
+    color: rgb(212, 185, 185);
 }
 #emaillink, #phonelink {
     color: white;
@@ -160,4 +160,15 @@ form{
     display:inline-block;
     vertical-align: middle;
     fill: rgb(40 103 178);
+}
+#navlist> li {
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+#navlist> li > a {
+    color: rgb(212, 185, 185);
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
 }
