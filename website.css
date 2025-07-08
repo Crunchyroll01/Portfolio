@@ -209,6 +209,7 @@ form{
     max-width: 85%;
     margin: 0 auto;
     flex: 1 0 auto;
+    margin-top: 80px;
 }
 #homecontent1, #homecontent2 {
     display: flex;
@@ -242,6 +243,21 @@ form{
     font-size: 20px;
     width: 50%;
 }
-#innercontent{
-margin-top: 80px;
+#aboutcontent1, #aboutcontent2 , #aboutcontent3 {
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgb(38, 41, 46);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+#abouth2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-top: 20px;
 }
