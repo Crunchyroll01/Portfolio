@@ -301,4 +301,8 @@ form{
 .goalscontainer ul>li>ul{
     box-shadow: none;
     border-radius: 0px;
+    text-indent: -70px;
+    list-style-position: inside;
+    margin-top: -20px;
+    margin-bottom: -15px;
 }
