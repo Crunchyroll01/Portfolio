@@ -1,6 +1,9 @@
 /* SDEV154
 Cody Fancil
 06/09/25 */
+body, html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 * {
     padding:0;
     margin:0;
@@ -8,10 +11,10 @@ Cody Fancil
 header{
     background-color: rgb(38, 41, 46);
     width: 100%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     top: 0;
     position: fixed;
     height: 80px;
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.2);
 }
 header > nav {
     display: flex;
@@ -23,10 +26,15 @@ header > nav > p {
     margin: 0;
     font-size: 20px;
     font-weight: bold;
+    font-style: italic;
 }
 #logo{
     text-decoration: none;
     color: rgb(212, 185, 185);
+}
+#logo:hover {
+  color: rgb(40, 103, 178);
+  text-decoration: underline;
 }
 header > nav > ul {
     display: flex;
@@ -46,27 +54,23 @@ body{
     a{
         color: rgb(40, 103, 178);
         text-decoration: underline;
-        font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 20px;
     }
     h1{
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
     padding-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
     }
-
     h2{
         text-align: center;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        margin-top: 10px;
         margin-bottom: 20px;
+        font-style:italic;
     }
 }
 body, h1, h2, p,body>footer>p{
     color: rgb(212, 185, 185);
-    justify-content: center;
-    font-family: Georgia, 'Times New Roman', Times, serif
 }
 footer{
     width: 100%;
@@ -78,10 +82,8 @@ footer{
     height: 40px;
     padding-top: 20px;
     padding-bottom: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     color: rgb(212, 185, 185);
-    font-size: 20px;
     font-weight: bold;
     margin-top: auto;
 }
@@ -113,6 +115,25 @@ footer>nav>ul{
     height: auto;
     border-radius: 50%;
 }
+#headshot2 {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+#gradhat{
+    width: 500px;
+    border-radius: 10%;
+}
+#club{
+    width: 500px;
+    height: auto;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+}
 form{
     display: flex;
     flex-direction: column;
@@ -123,9 +144,7 @@ form{
     padding: 20px;
     background-color: rgb(38, 41, 46);
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     line-height: 1.6;
     border: 1px solid rgb(60,47,47);
@@ -139,7 +158,6 @@ form{
         background-color: rgb(60,47,47);
         color: rgb(212, 185, 185);
         font-size: 18px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
     }
     @media (max-width: 600px) {
         width: 90%;
@@ -173,11 +191,10 @@ form{
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 40px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #contactheading {
     text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
 }
 #formbutton {
@@ -199,7 +216,6 @@ form{
 }
 #navlist> li {
     display: inline;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 700;
 }
 #navlist> li > a {
@@ -224,9 +240,6 @@ form{
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: rgb(212, 185, 185);
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     line-height: 1.6;
     padding: 20px;
@@ -253,27 +266,48 @@ form{
 #aboutcontent1, #aboutcontent2 , #aboutcontent3 {
     max-width: 85%;
     margin: 0 auto;
-    padding: 30px;
+    padding: 20px;
     background-color: rgb(38, 41, 46);
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     line-height: 1.6;
     margin-bottom: 15px;
 }
-#aboutcontent2>p,#aboutcontent3>p{
-    margin-bottom: 15px;
+#aboutcontent2,#aboutcontent3 {
+    display: flex;
+    flex-direction: column;
 }
-#aboutcontent2>ul,#aboutcontent3>ul{
-    list-style-position: inside;
-    text-indent: 20px;
+#aboutcontent2 img, #aboutcontent3 img {
+    max-width: 425px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.text-content {
+    flex: 1;
 }
 #abouth2 {
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
     margin-top: 20px;
+}
+#aboutcontent1 p {
+    text-align: center;
+}
+#ifSkills, #psychSkills{
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+    text-indent: 15px;
+    list-style-position: inside;
 }
 .goalscontainer h2{
     font-size: 30px;
@@ -292,17 +326,43 @@ form{
     padding: 30px;
     background-color: rgb(38, 41, 46);
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     line-height: 1.6;
     margin-bottom: 15px;
 }
 .goalscontainer ul>li>ul{
-    box-shadow: none;
     border-radius: 0px;
     text-indent: -70px;
     list-style-position: inside;
     margin-top: -20px;
     margin-bottom: -15px;
+}
+#innercontent > a{
+    color: rgb(40, 103, 178);
+}
+#project1, #project2 {
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(38, 41, 46);
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+#project1 img, #project2 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+}
+#mainHead{
+    margin-bottom: 25px;
+}
+.card{
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.589);
+}
+body img:not(footer img){
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.589);
 }

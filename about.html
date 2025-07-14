@@ -19,7 +19,6 @@ Cody Fancil
         <nav>
             <p><a href=index.html id="logo">Cody Fancil</a></p>
             <ul id="navlist">
-                <li><a href="index.html">Home</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="goals.html">Goals</a></li>
                 <li><a href="about.html">About Me</a></li>
@@ -28,19 +27,23 @@ Cody Fancil
             </ul>
         </nav>
     </header>
+
+
 <div id="innercontent">
     <h1>About Me</h1>
     <h2 id="abouth2">Who am I?</h2>
-    <div id="aboutcontent1">
-        <p>As you may know, my name is Cody Fancil, I am currently a temp student at Ivy Tech Community College in Fort Wayne, Indiana, pursuing a degree in Information Systems at Indiana Tech, after previously graduating from a Bachelors of Science in Psychology.</p>
+    <div id="aboutcontent1" class="card">
+        <p>My name is Cody Fancil, I am currently a temp student at Ivy Tech Community College in Fort Wayne, Indiana, pursuing a degree in Information Systems at Indiana Tech, after previously graduating from a Bachelors of Science in Psychology.</p>
         <p>In my free time, I enjoy playing video games, reading books, and spending time with my cats Tessa and Peanut.</p>
         <p>My goal is to become a skilled full stack web developer and contribute to innovative projects that push my boundaries and skills.</p>
     </div>
-    <div id="aboutcontent2">
-            <h2>Psychology</h2>
+    <div id="aboutcontent2" class="card">
+        <h2>Psychology</h2>
+        <div class="content-wrapper">
+        <div class="text-content">
         <p>I am a dual degree student that has multi-faceted interests in two fields. 
             In my first field, Psychology, I learned the following skills:</p>
-        <ul>
+        <ul id="psychSkills">
             <li>Understanding human behavior and mental processes</li>
             <li>Research methods and data analysis</li>
             <li>Effective communication and interpersonal skills</li>
@@ -49,17 +52,22 @@ Cody Fancil
             <li>Ethical research practices (e.g., IRB, consent)</li>
             <li>Statistical analysis and interpretation</li>
             <li>Knowledge of psychological theories and concepts</li>
-            <li>Ability to apply psychological principles to real-world situations but not in a professionally theruputic context</li>
+            <li>Ability to apply psychological principles to real-world situations</li>
             <li>Bias awareness</li>
             <li>Case Study Analysis</li>
             <li>Understanding of mental health issues and disorders</li>
             <li>And much more...</li>
         </ul>
+        </div>
+        <img src="images/club.jpg" id="club" alt="Image showcasing Cody's final days in leadership with the Psychology club.">
+        </div>
     </div>
-    <div id="aboutcontent3">
-            <h2>Information Systems</h2>
+    <div id="aboutcontent3" class="card">
+        <h2>Information Systems</h2>
+    <div class="content-wrapper">
+        <div class="text-content">
         <p>In my second field, Information Systems, I am learning the following skills:</p>
-        <ul>
+        <ul id="ifSkills">
             <li>Web development (HTML, CSS, JavaScript)</li>
             <li>Database management</li>
             <li>Systems analysis and design</li>
@@ -72,19 +80,26 @@ Cody Fancil
             <li>Data visualization and reporting</li>
             <li>And much more...</li>
         </ul>
+        </div>
+        <img src="images/gradhat.jpg" id="gradhat" alt="Cody's gown hat after graduating, with his medals.">
+        </div>
     </div>
 </div>
-<div id="footersection">
-    <footer>
-        <p>Contact me at:</p>
-        <nav>
-            <ul>
-                <li id="linkedin"><a href="https://www.linkedin.com/in/codyfancil/" target="_blank"><img src="images/LI-Logo.png" alt="Image of the logo of LinkedIn"></a></li>
-                <li id="emaillink"> <a href="mailto:hounddog51505@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg></a></li>
-                <li id="github"><a href="https://github.com/Crunchyroll01" target="_blank"><img src="images/github-mark-white.png" alt="Image of the logo of Github"></a></li>
-            </ul>
-        </nav>
-    </footer>
-</div>
+
+
+    <div id="footersection">
+        <footer>
+            <p>Contact me at:</p>
+            <nav>
+                <ul>
+                    <li id="linkedin"><a href="https://www.linkedin.com/in/codyfancil/" target="_blank"><img src="images/LI-Logo.png" alt="Image of the logo of LinkedIn"></a></li>
+                    <li id="emaillink"> <a href="mailto:hounddog51505@gmail.com"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" alt="Image of an envelope"/></svg></a></li>
+                    <li id="github"><a href="https://github.com/Crunchyroll01" target="_blank"><img src="images/github-mark-white.png" alt="Image of the logo of Github"></a></li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+
+<script src="my-script.js"></script>
 </body>
 </html>
