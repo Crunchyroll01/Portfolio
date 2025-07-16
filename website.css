@@ -95,6 +95,20 @@ footer>nav>ul{
 footer>p{
     margin-left: 20px;
 }
+#emailNav{
+    vertical-align: middle;
+    margin-left: 5px;
+    font-size: 10px;
+    color: rgb(212, 185, 185);
+    font-weight: normal;
+    position: relative;
+    top: -7px;
+}
+#Envelope{
+    position: relative;
+    top: -15px;
+    margin-bottom: -10px;
+}
 #emaillink, #phonelink {
     color: white;
     text-decoration: none;
