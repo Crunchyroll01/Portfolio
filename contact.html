@@ -17,10 +17,11 @@ Cody Fancil
 
 <body>
     <header>
-        <nav>
+        <nav id="navWhole">
             <p><a href=index.html id="logo">Cody Fancil</a></p>
+            <button id="nav-toggle" aria-label="Open navigation">&#9776;</button>
             <ul id="navlist">
-                <li><a href="projects.html">Projects</a></li>
+                <li id="projectNav"><a href="projects.html">Projects</a></li>
                 <li><a href="goals.html">Goals</a></li>
                 <li><a href="about.html">About Me</a></li>
                 <li><a href="contact.html">Contact Me</a></li>
@@ -89,7 +90,7 @@ Cody Fancil
         <option value="text">Text</option>
     </select>
 
-    <label for="consent">I consent to Cody Fancil using/storing this information to contact me</label>
+    <label for="consent" id="consentPar">I consent to Cody Fancil using/storing this information to contact me</label>
     <input type="checkbox" id="consent" name="consent" required>
 
     <button type="submit" id="formbutton">Send</button>
