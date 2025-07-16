@@ -467,7 +467,7 @@ body img:not(footer img){
         background-color: rgb(212, 185, 185);
         color: #000;
         font-size: 1rem;
-        height: 30px; 
+        height: 35px; 
     }
     #navlist {
         display: none;
