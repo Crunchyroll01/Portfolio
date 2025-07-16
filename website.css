@@ -74,14 +74,12 @@ body, h1, h2, p,body>footer>p{
 }
 footer{
     width: 100%;
-    background-color:  rgb(38, 41, 46);
     justify-content: left;
+    background-color: rgb(38, 41, 46);
     position: static;
     display: flex;
     flex-direction: row;
-    height: 40px;
     padding-top: 20px;
-    padding-bottom: 10px;
     font-size: 20px;
     color: rgb(212, 185, 185);
     font-weight: bold;
@@ -407,7 +405,7 @@ body img:not(footer img){
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        width: 40%;
+        width: 50%;
         text-align: center;
         margin-top: 0;
         margin-bottom: 25px;
@@ -467,6 +465,7 @@ body img:not(footer img){
         display: block;
         width: 100%;
         background-color: rgb(212, 185, 185);
+        color: #000;
     }
     #navlist {
         display: none;
@@ -480,6 +479,11 @@ body img:not(footer img){
     font-size: 18px;
     text-indent: .5px;
     }
+    #homecontent1,
+    #homecontent2 {
+        flex-direction: column;
+        align-items: center;
+    }
     #homecontent1 p,
     #homecontent2 p{
         font-size: 18px;
@@ -489,10 +493,8 @@ body img:not(footer img){
     }
     #homecontent1 img#tess1,
     #homecontent2 img#tess2 {
-        width: 55%;
+        width: 50%;
         height: 50%;
-        flex-direction: column;
-        text-align: center;
     }
     #aboutcontent1,#aboutcontent2 p, #aboutcontent3 p{
         font-size: 18px;
