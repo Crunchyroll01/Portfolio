@@ -10,7 +10,8 @@ body, html{
 }
 header{
     background-color: rgb(38, 41, 46);
-    width: 100%;
+    width: 100vw;
+    max-width: 100%;
     top: 0;
     position: fixed;
     height: 80px;
@@ -73,7 +74,8 @@ body, h1, h2, p,body>footer>p{
     color: rgb(212, 185, 185);
 }
 footer{
-    width: 100%;
+    width: 100vw;
+    max-width: 100%;
     justify-content: left;
     background-color: rgb(38, 41, 46);
     position: static;
@@ -479,7 +481,8 @@ body img:not(footer img){
     }
     #nav-toggle {
         display: block;
-        width: 100%;
+        width: 100vw;
+        max-width: 100%;
         background-color: rgb(212, 185, 185);
         color: #000;
         font-size: 1.16rem;
