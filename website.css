@@ -216,6 +216,12 @@ form [type="checkbox"] {
 #contactheading {
     text-align: center;
     font-size: 40px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+#contactparagraph {
+    font-size: 18px;
+    padding: 0 10px;
 }
 #consentPar{
     font-size: 18px;
@@ -384,6 +390,7 @@ form [type="checkbox"] {
     margin: 20px auto;
 }
 #mainHead{
+    margin-top: 35px;
     margin-bottom: 25px;
 }
 .card{
@@ -434,11 +441,6 @@ body img:not(footer img){
         width: 70%;
         padding: 12px;
     }
-
-    #contactparagraph {
-        font-size: 18px;
-        padding: 0 10px;
-    }
     header{
         height: auto;
         box-sizing: border-box;
@@ -480,8 +482,11 @@ body img:not(footer img){
         width: 100%;
         background-color: rgb(212, 185, 185);
         color: #000;
-        font-size: 1rem;
-        height: 35px; 
+        font-size: 1.16rem;
+        height: 50px; 
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        gap: 2.5px;
+        font-weight: 600;
     }
     #navlist {
         display: none;
