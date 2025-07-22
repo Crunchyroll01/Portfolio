@@ -11,10 +11,15 @@ body, html{
     margin:0;
 }
 
+header,
+footer,
+#nav-toggle {
+    width: 100%;
+    max-width: 100%;
+}
+
 header{
     background-color: rgb(38, 41, 46);
-    width: 100vw;
-    max-width: 100%;
     top: 0;
     position: fixed;
     height: 80px;
@@ -88,7 +93,7 @@ body, h1, h2, p,body>footer>p{
 }
 
 footer{
-    width: 100vw;
+    width: 100%;
     max-width: 100%;
     justify-content: left;
     background-color: rgb(38, 41, 46);
@@ -533,7 +538,7 @@ body img:not(footer img){
         height: auto;
         box-sizing: border-box;
         padding: 10px 0;
-        width: 100vw;
+        width: 100%;
         max-width: 100%;
     }
 
@@ -549,8 +554,12 @@ body img:not(footer img){
         margin-bottom: 10px;
     }
     footer {
-        width: 100vw;
+        width: 100%;
         max-width: 100%;
+    }
+    footer>p{
+        font-size: 16px;
+        margin-left: 10px;
     }
 
     #navlist {
@@ -580,7 +589,7 @@ body img:not(footer img){
 
     #nav-toggle {
         display: block;
-        width: 100vw;
+        width: 100%;
         max-width: 100%;
         background-color: rgb(212, 185, 185);
         color: #000;
