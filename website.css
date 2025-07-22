@@ -1,13 +1,16 @@
 /* SDEV154
 Cody Fancil
 06/09/25 */
+
 body, html{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 * {
     padding:0;
     margin:0;
 }
+
 header{
     background-color: rgb(38, 41, 46);
     width: 100vw;
@@ -17,26 +20,31 @@ header{
     height: 80px;
     box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.2);
 }
+
 header > nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
 }
+
 header > nav > p {
     margin: 0;
     font-size: 20px;
     font-weight: bold;
     font-style: italic;
 }
+
 #logo{
     text-decoration: none;
     color: rgb(212, 185, 185);
 }
+
 #logo:hover {
     color: rgb(40, 103, 178);
     text-decoration: underline;
 }
+
 header > nav > ul {
     display: flex;
     justify-content: flex-end;
@@ -46,6 +54,7 @@ header > nav > ul {
     padding: 25px;
     font-size: 20px;
 }
+
 body{
     display: flex;
     flex-direction: column;
@@ -53,11 +62,13 @@ body{
     background-color: rgb(60,47,47);
     line-height: 1.5;
 }
+
 body a{
     color: rgb(40, 103, 178);
     text-decoration: underline;
     font-size: 20px;
 }
+
 body h1{
     text-align: center;
     font-size: 40px;
@@ -65,14 +76,17 @@ body h1{
     margin-bottom: 20px;
     margin-top: 10px;
 }
+
 body h2{
     text-align: center;
     margin-bottom: 20px;
     font-style:italic;
 }
+
 body, h1, h2, p,body>footer>p{
     color: rgb(212, 185, 185);
 }
+
 footer{
     width: 100vw;
     max-width: 100%;
@@ -87,6 +101,7 @@ footer{
     font-weight: bold;
     margin-top: auto;
 }
+
 footer>nav>ul{
     display: flex;
     justify-content: left;
@@ -94,9 +109,11 @@ footer>nav>ul{
     margin:0 20px;
     list-style-type: none;
 }
+
 footer>p{
     margin-left: 20px;
 }
+
 #emailNav{
     vertical-align: middle;
     margin-left: 5px;
@@ -106,25 +123,30 @@ footer>p{
     position: relative;
     top: -7px;
 }
+
 #Envelope{
     position: relative;
     top: -15px;
     margin-bottom: -10px;
 }
+
 #emaillink, #phonelink {
     color: white;
     text-decoration: none;
     font-size: 20px;
     font-family: monospace;
 }
+
 #linkedin img{
     height: 30px;
     width: 125px;
 }
+
 #github img {
     height: 35px;
     width: 40px;
 }
+
 #headshot {
     display: block;
     margin: 0 auto;
@@ -132,6 +154,7 @@ footer>p{
     height: auto;
     border-radius: 50%;
 }
+
 #headshot2 {
     display: block;
     margin: 0 auto;
@@ -140,10 +163,12 @@ footer>p{
     border-radius: 50%;
     margin-bottom: 15px;
 }
+
 #gradhat{
     width: 500px;
     border-radius: 10%;
 }
+
 #club{
     width: 500px;
     height: auto;
@@ -151,7 +176,8 @@ footer>p{
     display: flex;
     flex-direction: row;
 }
-form{
+
+form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -166,25 +192,29 @@ form{
     line-height: 1.6;
     border: 1px solid rgb(60,47,47);
     box-sizing: border-box;
-    input,select{
-        width: 90%;
-        padding: 10px;
-        margin: 10px 0;
-        border-radius: 5px;
-        border: 1px solid rgb(60,47,47);
-        background-color: rgb(60,47,47);
-        color: rgb(212, 185, 185);
-        font-size: 18px;
-    }
-    label {
-        font-weight: bold;
-        color: rgb(212, 185, 185);
-        margin-top: 5px;               
-        font-size: 18px;
-        padding: 5px;
-        margin-bottom: 5px;
-    }
 }
+
+form input,
+form select {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid rgb(60,47,47);
+    background-color: rgb(60,47,47);
+    color: rgb(212, 185, 185);
+    font-size: 18px;
+}
+
+form label {
+    font-weight: bold;
+    color: rgb(212, 185, 185);
+    margin-top: 5px;
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
 #dayform {
     display: flex;
     justify-content: center;
@@ -200,14 +230,17 @@ form{
     box-sizing: border-box;
     margin-top: 10px;
 }
+
 form [type="checkbox"] {
     width: 20px;
     height: 20px;
 }
+
 #dayform [type="checkbox"] {
     width: 20px;
     height: 20px;
 }
+
 #contactparagraph {
     text-align: center;
     font-size: 20px;
@@ -215,16 +248,19 @@ form [type="checkbox"] {
     margin-bottom: 40px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 #contactheading {
     text-align: center;
     font-size: 40px;
     margin-top: 35px;
     margin-bottom: 25px;
 }
+
 #contactparagraph {
     font-size: 18px;
     padding: 0 10px;
 }
+
 #consentPar{
     font-size: 18px;
     margin-top: 25px;
@@ -242,6 +278,7 @@ form [type="checkbox"] {
     border-radius: 5px;
     margin-top: 20px;
 }
+
 #emaillink svg {
     height: 35px;
     width: 40px;
@@ -249,26 +286,31 @@ form [type="checkbox"] {
     vertical-align: middle;
     fill: rgb(40 103 178);
 }
+
 #navlist> li {
     display: inline;
     font-weight: 700;
 }
+
 #navlist> li > a {
     color: rgb(212, 185, 185);
     padding: 10px;
     text-decoration: none;
     font-size: 20px;
 }
+
 #navlist> li > a:hover {
     color: rgb(40, 103, 178);
     text-decoration: underline;
 }
+
 #innercontent {
     max-width: 85%;
     margin: 0 auto;
     flex: 1 0 auto;
     margin-top: 80px;
 }
+
 #homecontent1, #homecontent2 {
     display: flex;
     flex-direction: row;
@@ -298,6 +340,7 @@ form [type="checkbox"] {
     font-size: 20px;
     width: 50%;
 }
+
 #aboutcontent1, #aboutcontent2 , #aboutcontent3 {
     max-width: 85%;
     margin: 0 auto;
@@ -308,16 +351,19 @@ form [type="checkbox"] {
     line-height: 1.6;
     margin-bottom: 15px;
 }
+
 #aboutcontent2,#aboutcontent3 {
     display: flex;
     flex-direction: column;
 }
+
 #aboutcontent2 img, #aboutcontent3 img {
     max-width: 425px;
     height: auto;
     border-radius: 10px;
     margin-left: 20px;
 }
+
 .content-wrapper {
     display: flex;
     flex-direction: row;
@@ -325,17 +371,21 @@ form [type="checkbox"] {
     align-items: flex-start;
     gap: 20px;
 }
+
 .text-content {
     flex: 1;
 }
+
 #abouth2 {
     text-align: center;
     font-size: 25px;
     margin-top: 20px;
 }
+
 #aboutcontent1 p {
     text-align: center;
 }
+
 #ifSkills, #psychSkills{
     list-style-type: disc;
     padding-left: 20px;
@@ -343,17 +393,21 @@ form [type="checkbox"] {
     text-indent: 15px;
     list-style-position: inside;
 }
+
 .goalscontainer h2{
     font-size: 30px;
 }
+
 .goalscontainer h3{
     font-size: 23px;
     text-indent: 90px;
     margin-bottom: 10px;
 }
+
 .goalscontainer ul li{
     font-size: 20px;
 }
+
 .goalscontainer ul{
     max-width: 85%;
     margin: 0 auto;
@@ -364,6 +418,7 @@ form [type="checkbox"] {
     line-height: 1.6;
     margin-bottom: 15px;
 }
+
 .goalscontainer ul>li>ul{
     border-radius: 0px;
     text-indent: -70px;
@@ -371,9 +426,11 @@ form [type="checkbox"] {
     margin-top: -20px;
     margin-bottom: -15px;
 }
+
 #innercontent > a{
     color: rgb(40, 103, 178);
 }
+
 #project1, #project2 {
     max-width: 85%;
     margin: 0 auto;
@@ -384,6 +441,7 @@ form [type="checkbox"] {
     line-height: 1.6;
     margin-bottom: 25px;
 }
+
 #project1 img, #project2 img {
     max-width: 100%;
     height: auto;
@@ -391,19 +449,24 @@ form [type="checkbox"] {
     display: block;
     margin: 20px auto;
 }
+
 #mainHead{
     margin-top: 35px;
     margin-bottom: 25px;
 }
+
 .card{
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.589);
 }
+
 body img:not(footer img){
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.589);
 }
+
 #nav-toggle {
     display: none;
 }
+
 @media (max-width: 950px) {
 
     form {
@@ -422,6 +485,7 @@ body img:not(footer img){
         border: 2px solid rgb(212, 185, 185);
         border-radius: 13px;
     }
+    
     #dayform{
         display: flex;
         flex-direction: column;
@@ -433,31 +497,37 @@ body img:not(footer img){
         margin-top: 0;
         margin-bottom: 25px;
     }
+
     #dayform [type="checkbox"] {
         width: 15px;
         height: 15px;
         vertical-align: middle;
         margin-bottom: 0;
     }
+
     #formbutton {
         width: 70%;
         padding: 12px;
     }
+
     header{
         height: auto;
         box-sizing: border-box;
         padding: 10px 0;
     }
+
     header > nav {
         flex-direction: column;
         align-items: center;
         padding: 0 5px;
         height: auto;
     }
+
     header > nav > p {
         font-size: 1.5rem;
         margin-bottom: 10px;
     }
+
     #navlist {
         flex-direction: column;
         gap: 8px;
@@ -465,10 +535,12 @@ body img:not(footer img){
         padding: 0;
         margin: 0;
     }
+
     #navlist li {
         width: 100%;
         border-top: 4px solid rgb(60,47,47);
     }
+
     #navlist li a {
         display: block;
         width: 100%;
@@ -476,9 +548,11 @@ body img:not(footer img){
         padding: 8px 0;
         text-align: center;
     }
+
     #logo {
         font-size: 1.4rem;
     }
+
     #nav-toggle {
         display: block;
         width: 100vw;
@@ -491,23 +565,28 @@ body img:not(footer img){
         gap: 2.5px;
         font-weight: 600;
     }
+
     #navlist {
         display: none;
     }
+
     #navlist.open {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .goalscontainer ul li{
     font-size: 18px;
     text-indent: .5px;
     }
+
     #homecontent1,
     #homecontent2 {
         flex-direction: column;
         align-items: center;
     }
+
     #homecontent1 p,
     #homecontent2 p{
         font-size: 18px;
@@ -515,23 +594,51 @@ body img:not(footer img){
         margin-top: 15px;
         text-align: center;
     }
+
     #homecontent1 img#tess1,
     #homecontent2 img#tess2 {
         width: 50%;
         height: 50%;
     }
+
     #aboutcontent1,#aboutcontent2 p, #aboutcontent3 p{
         font-size: 18px;
         text-align: center;
         margin-bottom: 15px;
     }
+
     .content-wrapper {
         flex-direction: column;
         align-items: center;
     }
+
     #aboutcontent2 img, #aboutcontent3 img {
         max-width: 100%;
         margin: 0 auto;
         margin-bottom: 20px;
     }
+}
+
+#yourSummary {
+    display: none;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#summaryTable {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: rgb(38, 41, 46);
+    color: rgb(212, 185, 185);
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.589);
+    border-radius: 10px;
+    overflow: scroll;
+}
+
+#summaryTable th, #summaryTable td {
+    border: 3px solid rgb(60,47,47);
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
 }
