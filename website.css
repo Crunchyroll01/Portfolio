@@ -190,7 +190,7 @@ form {
     color: white;
     font-size: 18px;
     line-height: 1.6;
-    border: 1px solid rgb(60,47,47);
+    border: 1.4px solid rgb(60,47,47);
     box-sizing: border-box;
 }
 
@@ -239,6 +239,16 @@ form [type="checkbox"] {
 #dayform [type="checkbox"] {
     width: 20px;
     height: 20px;
+}
+
+fieldset {
+    display: block;
+    min-inline-size: 0;
+    margin: 0;
+    border: none;
+    padding: 0;
+    background: transparent;
+    box-sizing: border-box;
 }
 
 #contactparagraph {
@@ -474,6 +484,9 @@ body img:not(footer img){
         padding: 15px;
         margin: 20px auto;
     }
+    form label {
+        font-size: 17px;
+    }
 
     input, select {
         width: 100%;
@@ -485,7 +498,9 @@ body img:not(footer img){
         border: 2px solid rgb(212, 185, 185);
         border-radius: 13px;
     }
-    
+    form select{
+        font-size: 16px;
+    }
     #dayform{
         display: flex;
         flex-direction: column;
@@ -504,6 +519,10 @@ body img:not(footer img){
         vertical-align: middle;
         margin-bottom: 0;
     }
+    #dayform label {
+        margin: 5px 0;
+        font-size: 16px;
+    }
 
     #formbutton {
         width: 70%;
@@ -514,6 +533,8 @@ body img:not(footer img){
         height: auto;
         box-sizing: border-box;
         padding: 10px 0;
+        width: 100vw;
+        max-width: 100%;
     }
 
     header > nav {
@@ -526,6 +547,10 @@ body img:not(footer img){
     header > nav > p {
         font-size: 1.5rem;
         margin-bottom: 10px;
+    }
+    footer {
+        width: 100vw;
+        max-width: 100%;
     }
 
     #navlist {
