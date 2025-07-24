@@ -1,7 +1,6 @@
 /* SDEV154
 Cody Fancil
 06/09/25 */
-
 body, html{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -482,6 +481,46 @@ body img:not(footer img){
     display: none;
 }
 
+#yourSummary {
+    display: none;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#summaryTable {
+    width: 40%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: rgb(38, 41, 46);
+    color: rgb(212, 185, 185);
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.589);
+    overflow: scroll;
+}
+#summaryTable{
+    border-radius: 20px;
+}
+
+#summaryTable th, #summaryTable td {
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1.5px solid rgb(60,47,47);
+}
+#tableContactHead th,
+#tableContactHead td {
+    border-bottom: none;
+}
+@media (max-width: 1500px) and (min-width: 951px) {
+    #homecontent1, #homecontent2 {
+        width: 90%;
+    }
+    #homecontent1 img, #homecontent2 img {
+        width: 50%;
+        height: auto;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
 @media (max-width: 950px) {
 
     form {
@@ -651,28 +690,38 @@ body img:not(footer img){
         margin: 0 auto;
         margin-bottom: 20px;
     }
-}
-
-#yourSummary {
-    display: none;
-    justify-content: center;
-    margin-bottom: 50px;
-}
-
-#summaryTable {
-    width: 60%;
-    border-collapse: collapse;
-    margin: 20px auto;
-    background-color: rgb(38, 41, 46);
-    color: rgb(212, 185, 185);
-    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.589);
-    border-radius: 10px;
-    overflow: scroll;
-}
-
-#summaryTable th, #summaryTable td {
-    border: 3px solid rgb(60,47,47);
-    padding: 10px;
-    text-align: center;
-    font-size: 18px;
+        #summaryTable {
+        width: 80%;
+        font-size: 15px;
+    }
+    #summaryTable th, #summaryTable td {
+        display: block;
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+        border-bottom: 1.5px solid rgb(60,47,47);
+        padding: 8px 12px;
+    }
+    #summaryTable tr {
+        display: block;
+        margin-bottom: 10px;
+        border-radius: 8px;
+        background: rgb(38, 41, 46);
+    }
+    #summaryTable th {
+        font-weight: bold;
+        color: rgb(212, 185, 185);
+        font-size: 18px;
+        background: none;
+        border-bottom: none;
+    }
+    #summaryTable td {
+        color: rgb(212, 185, 185);
+        margin-top: 2.5px;
+        font-size: 16px;
+        padding-top: 2px;
+    }
+    #summaryTable #summaryMethod {
+        border-bottom: none;
+    }
 }
