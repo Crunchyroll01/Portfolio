@@ -527,8 +527,8 @@ body img:not(footer img){
 @media (max-width: 950px) {
 
     #coLogo img {
-        width: 80px;
-        height: 80px;
+        width: 70px;
+        height: 70px;
         margin-top: 0px;
     }
     #aboutH1 {
