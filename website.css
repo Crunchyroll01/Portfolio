@@ -142,8 +142,8 @@ footer>p{
 }
 
 #linkedin img{
-    height: 30px;
-    width: 125px;
+    height: 35px;
+    width: 50px;
 }
 
 #github img {
@@ -723,5 +723,17 @@ body img:not(footer img){
     }
     #summaryTable #summaryMethod {
         border-bottom: none;
+    }
+    #consentPar {
+        font-size: 16px;
+    }
+    #psychSkills {
+        font-size: 19px;
+    }
+    #ifSkills {
+        font-size: 19px;
+    }
+    #project1, #project2 {
+        font-size: 18px;
     }
 }
