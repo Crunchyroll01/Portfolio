@@ -523,6 +523,14 @@ body img:not(footer img){
     padding: 5px;
     border-radius: 5px;
 }
+#dayFormLabel {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(212, 185, 185);
+    font-weight: bold;
+    background-color: rgb(38, 41, 46);
+}
 @media (max-width: 1500px) and (min-width: 951px) {
     #homecontent1, #homecontent2 {
         width: 90%;
