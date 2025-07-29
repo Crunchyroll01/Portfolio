@@ -34,8 +34,6 @@ Cody Fancil
         </nav>
     </header>
 
-    <!--It is important to note im using native HTML5 form validation, like "required" in the email input, 
-    for basic format/required checks, no javascript is necessary-->
 <div id="innercontent">
     <h1 id="contactheading">Contact Me</h1>
     <p id="contactparagraph">Sometimes I am unable to answer immediately. <br> Feel free to leave your contact information and I will reach you.<br> 
@@ -48,7 +46,8 @@ Cody Fancil
     <input type="email" id="email" name="email" required>
 
     <label for="phone">Phone Number :</label>
-    <input id="phone" name="phone" required>
+    <input type="tel" id="phone" name="phone" required>
+    <span id="phoneError"></span>
 
     <label for="purpose">Contact Purpose :</label>
     <select id="purpose" name="purpose" required>
@@ -100,7 +99,7 @@ Cody Fancil
 
     <label for="consent" id="consentPar">I consent to Cody Fancil using/storing this information to contact me</label>
     <input type="checkbox" id="consent" name="consent" required>
-
+    
     <button type="submit" id="formbutton" class="contactButton">Send</button>
 </form>
 </div>

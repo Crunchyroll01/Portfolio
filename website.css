@@ -513,6 +513,16 @@ body img:not(footer img){
 #tableContactHead td {
     border-bottom: none;
 }
+#phoneError {
+    color: #ffebeb;
+    display: none;
+    font-size: 14px;
+    margin-top: 5px;
+    background-color: rgb(173, 11, 11);
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
 @media (max-width: 1500px) and (min-width: 951px) {
     #homecontent1, #homecontent2 {
         width: 90%;
