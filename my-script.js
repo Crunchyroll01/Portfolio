@@ -1,7 +1,3 @@
-/* SDEV154
-My Porfolio
-Cody Fancil
-06/09/25*/
 
 document.getElementById('nav-toggle').addEventListener('click', function() {
     document.getElementById('navlist').classList.toggle('open');
